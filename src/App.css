@@ -1,0 +1,145 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+    width: 80%;
+}
+
+figure {
+    display: flex;
+    margin: 0;
+    width: 130px;
+}
+
+figure img {
+    width: 100%;
+}
+
+.MenuElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.MenuItem {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #505050;
+    font-weight: 600;
+}
+
+.MenuItem:hover {
+    border-width: 0px 0px 8px 0px;
+    border-style: solid;
+    border-color: #eb00009e;
+}
+
+.CtaMenu {
+    text-decoration: none;
+    color: #eb0000;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.CtaMenu:hover {
+    color: #fff;
+    background-color: #eb0000;
+}
+
+.ItemSpace {
+    margin-right: 15px;
+}
+
+.Header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Header video {
+    height: 100%;
+    width: 100%;
+    margin-top: 2px;
+}
+
+.videoContainer {
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+}
+
+.Cta {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+
+.CtaText {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.CtaText h1 {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    color: #424242;
+}
+
+.Cta p {
+    margin: 0;
+    margin-top: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #424242;
+}
+
+.CtaBtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CtaBtn:hover {
+    opacity: .8;
+}
+
+.CtaBtn a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    padding: 20px 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.SlideSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    margin-top: 4%;
+}

@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 0px 0px 0px;
+    width: 80%;
+}
+
+figure {
+    display: flex;
+    margin: 0;
+    width: 130px;
+}
+
+figure img {
+    width: 100%;
+}
+
+.MenuElements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.MenuItem {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #505050;
+    font-weight: 600;
+}
+
+.MenuItem:hover {
+    border-width: 0px 0px 8px 0px;
+    border-style: solid;
+    border-color: #eb00009e;
+}
+
+.CtaMenu {
+    text-decoration: none;
+    color: #eb0000;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.CtaMenu:hover {
+    color: #fff;
+    background-color: #eb0000;
+}
+
+.ItemSpace {
+    margin-right: 15px;
+}
+
+.PageContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}

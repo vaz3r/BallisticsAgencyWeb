@@ -1,0 +1,157 @@
+section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 40px 0px;
+}
+
+.SectionHead {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.SectionHead figure {
+    display: flex;
+    margin: 0px 10px 0px 0px;
+    width: 35px;
+}
+
+.SectionHead > h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.SectionContent {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0px;
+}
+
+.SectionContent article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 15px 0px;
+    justify-content: center;
+    animation-duration: 2s;
+}
+
+.SectionContent figure {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 500;
+    background-color:#fff;
+    border: 10px solid #FE5B5C;    
+    border-radius:50%;
+    flex-shrink: 0;
+    color: #FE5B5C;
+    margin: 0px 20px 0px 0px;
+}
+
+.SectionContent article > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+}
+
+.SectionContent article > div h3 {
+    font-size: 1.2rem;
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+    color: #FE5B5C;
+}
+
+.SectionContent article > div p {
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    color: #505050;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.Delay5 {
+    animation-delay: .5s;
+}
+
+.Delay10 {
+    animation-delay: .99s;
+}
+
+.Delay1 {
+    animation-delay: 1s;
+}
+
+.Delay2 {
+    animation-delay: 1.4s;
+}
+
+.Delay3 {
+    animation-delay: 1.6s;
+}
+
+.Delay4 {
+    animation-delay: 1.8s;
+}
+
+.Hidden {
+    display: none;
+}
+
+.VectorSection {
+    align-items: center;
+}
+
+ServicesHeader {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServicesHeader > figure {
+    width: 350px;
+}
+
+.VectorSection h3 {
+    color: #505050;
+    font-size: 1.3rem;
+}
+
+.ServicesContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ServicesContainer > article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    margin: 20px 0px;
+}
+
+.ServicesContainer > article > figure {
+    width: 80px;
+    height: 80px;
+}
+
+.ServicesContainer > article > h4 {
+    font-size: 1.1rem;
+    color: #505050;
+    text-align: center;
+}
